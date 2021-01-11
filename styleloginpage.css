@@ -1,0 +1,26 @@
+body {
+	font-family: 'Candara', sans-serif;
+	background: url(res/gambar.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.form-group{
+	width: auto;
+}
+
+.modal-content{
+	margin:0 auto;
+	margin-top: 130px;
+	border:1px solid black;
+	border-radius:20px;
+	background-color:white;
+/*	opacity: .8;*/
+	padding: 0 18px;
+	padding:30px;
+}
+
+.header{
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	padding:30px;
+}

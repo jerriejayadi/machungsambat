@@ -1,0 +1,27 @@
+
+
+
+
+
+/* Categories */
+
+.categories{
+	margin-top:100px;
+	border:1px solid black;
+	border-radius:20px;
+	background-color:white;
+	width: auto;
+	height: auto;
+
+}
+
+.box{
+	margin-bottom: 40px;
+	width:168.75px ;
+	height:51.17px ;
+	border-radius:20px;
+	font-size: 17px;
+	background-color:#fdfdfd;
+	border:1px solid black;
+	color:#707070;
+}

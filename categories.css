@@ -1,0 +1,165 @@
+*{
+	font-family:candara;
+}
+
+/*navbar*/
+.navbar-brand{
+	font-size: 25px;
+}
+.nav-link{
+	font-size: 20px;
+	margin-right:95px;
+}
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 7px solid #4CC9F0;
+	padding-bottom:5px;
+	width: 90%;
+	margin: auto;
+	margin-bottom: -20px;
+}
+.navbar-brand, .nav-link{
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);	
+}
+
+
+/* carousel */
+.carousel img{
+	height:450px;
+	object-fit:cover;
+	margin-top:-25px;
+}
+
+
+
+
+/* searchbar */
+.search-btn{
+	max-height:20px;
+}
+
+.searchicon{
+	border:1px solid black;
+	border-top-left-radius:1000px;
+}
+
+
+
+/* makepost */
+.makepost{
+	margin-top:100px;
+	border:1px solid black;
+	border-radius:20px;
+	background-color:white;
+	padding:30px;
+
+}
+
+
+
+
+/* feeds */
+.nama{
+	font-size:30px;
+	font-weight:bold;
+	color:#707070;
+}
+.post-header{
+	margin-bottom:39px;
+}
+
+.post-menu{
+	margin-right:30px;
+}
+
+.title{
+	font-size:22px;
+	margin-left:-25px;
+}
+
+.foto-profil{
+	width:30.91px;
+}
+
+.location{
+	border: 1px solid black;
+	border-radius:10px;
+}
+
+.location img{
+	max-width:100%;
+}
+
+#status{
+	font-size:23px;
+}
+
+.nama{
+	font-size:30px;
+}
+.upload-foto{
+	max-width:100%;
+}
+
+.komentar{
+	background-color:#4cc9f0;
+	border-radius:10px;
+	padding:15px;
+}
+
+.form-komen{
+	padding:20px;
+}
+/*utilities*/
+.tombol{
+	border-radius: 50px;
+	font-size: 17px;
+	background-color:#4cc9f0;
+	color:#707070;
+}
+
+hr{
+	border: 1px solid white;
+}
+
+.tombolpost{
+	width:100px;
+}
+textarea{
+	resize: none;
+}
+.jumbotron{
+	background-image: linear-gradient(190deg, rgba(161, 227, 260,0), rgba(161, 227, 260,1));
+}
+
+/*dekstop version*/
+@media (min-width: 992px) { 
+
+
+
+}
+
+
+/* Categories */
+
+.categories{
+	margin-top:100px;
+	border:1px solid black;
+	border-radius:20px;
+	background-color:white;
+	width: auto;
+	height: auto;
+
+}
+
+.box{
+	margin-bottom: 40px;
+	width:168.75px ;
+	height:51.17px ;
+	border-radius:20px;
+	font-size: 17px;
+	background-color:#fdfdfd;
+	border:1px solid black;
+	color:#707070;
+}
